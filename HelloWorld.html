@@ -1,8 +1,16 @@
 <HTML>
 	<BODY>
 		<script type = "text/JavaScript">
+
 			var name = window.prompt("Name?");
 			document.write("Hello"+name);
+
+			var color = window.prompt("Foreground Color?");
+			document.fgColor = color;
+			color = window.prompt("Background Color?");
+			document.bgColor = color;
+			document.write("Hello World");
+
 		</script>
 	</BODY>
 </HTML>
